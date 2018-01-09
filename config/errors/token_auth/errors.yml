@@ -1,0 +1,41 @@
+Unauthorized:
+  error_code: unauthorized
+  http_code: 401
+  translation_key: 'errors.unauthorized'
+  description: 'Token is invalid or user is blocked.'
+
+BadCredentials:
+  error_code: bad_credentials
+  http_code: 401
+  translation_key: errors.bad_credentials'
+  description: 'Token is invalid or user is blocked.'
+
+UnknownRecoverMethod:
+  error_code: unknown_recover_method
+  http_code: 401
+  translation_key: errors.unknown_recover_method
+  description: ''
+
+UnknownTokenizeMethod:
+  error_code: unknown_tokenize_method
+  http_code: 401
+  translation_key: errors.unknown_tokenize_method
+  description: ''
+
+InvalidResetToken:
+  error_code: invalid_reset_token
+  http_code: 401
+  translation_key: errors.invalid_reset_token
+  description: ''
+
+BadCredentials:
+  error_code: bad_credentials
+  http_code: 401
+  translation_key: errors.bad_credentials
+  description: ''
+
+FindEntityException:
+  error_code: find_entity_exception
+  http_code: 401
+  translation_key: errors.FindEntityException
+  description: 'Token is invalid or user is blocked.'

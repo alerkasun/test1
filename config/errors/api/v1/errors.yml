@@ -1,0 +1,11 @@
+ErrorsExampleController::CvvInvalid:
+  error_code: cvv_code_invalid
+  http_code: 422
+  translation_key: 'errors.payments.cvv'
+  description: 'CVV code is invalid.'
+
+ErrorsExampleController::Appointment:
+  error_code: slot_occupied
+  http_code: 422
+  translation_key: 'errors.appointments.slot_occupied'
+  description: 'This slot is occupied, please select another one.'

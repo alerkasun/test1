@@ -1,0 +1,5 @@
+Unavailable:
+  error_code:
+  http_code: 401
+  translation_key: 'errors.unauthorized'
+  description: ''

@@ -1,0 +1,26 @@
+AllCops:
+  DisplayCopNames: true
+  Exclude:
+    - db/migrate/*.rb
+    - vendor/**/*
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - config/routes.rb
+    - lib/capistrano/tasks/deploy.rake
+    - app/admin/*.rb
+    - spec/**/*.rb
+
+Lint/HandleExceptions:
+  Exclude:
+    - bin/rails
+    - bin/rake
+
+Style/RaiseArgs:
+  EnforcedStyle: compact

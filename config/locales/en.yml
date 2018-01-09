@@ -1,0 +1,55 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  token_auth:
+    authenticator:
+      errors:
+        auth_faild: "Authentication failed"
+    authenticable:
+      errors:
+        bad_credenitials: "Bad credentials"
+        invalid_params: "Invalid params"
+  activerecord:
+    errors:
+      models:
+        profile:
+          attributes:
+            gender:
+              inclusion: "Wrong gender"
+            birt_on:
+              invalid_datetime: "Wrong birth date"
+  errors:
+    cannot_recover_password: "Cannot recover password"
+    user_not_exist: "User doesn't exists"
+    cannot_reset_password: "Cannot reset password"
+    platform_not_in_scope: "Platform should be only ios or android"
+
+  confirm_email:
+    thank_you: "Thank you"
+    your_email: "Your email"
+    is_successfully_confirmed: "is successfully confirmed"
+
+  reset_password:
+    follow: "follow"
+    link_anchor: "link"
+    to_anchor_email: "to confirm email"
+    your_password_has_been_successfully_changed: "Your password has been successfully changed"

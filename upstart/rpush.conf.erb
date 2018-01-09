@@ -1,0 +1,14 @@
+start on starting <%= application %>
+stop on stopping <%= application %>
+
+respawn
+expect daemon
+
+setuid <%= user %>
+setgid <%= user %>
+
+kill signal SIGTERM
+reload signal SIGHUP
+
+chdir <%= current_path %>
+exec /home/<%= user %>/.rvm/wrappers/<%= application %>/bundle exec rpush start -e <%= rails_env %>

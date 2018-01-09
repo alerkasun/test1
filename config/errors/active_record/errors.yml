@@ -1,0 +1,5 @@
+RecordInvalid:
+  error_code: record_invalid
+  http_code: 422
+  translation_key: 'errors.active_record.record_invalid'
+  description: 'Record is invalid.'
